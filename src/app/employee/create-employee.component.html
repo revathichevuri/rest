@@ -1,0 +1,23 @@
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+    <div>
+        <label>User Id:
+            <input id='id' type="text" class="form-control" formControlName="id"></label>
+    </div>
+    <div>
+        <label>First Name:
+            <input id='firstName' type="text" class="form-control" formControlName="firstName"></label>
+    </div>
+    <div>
+        <label>Last Name:
+            <input id='lastName' type="text" class="form-control" formControlName="lastName"></label>
+    </div>
+    <div>
+        <label>Email:
+            <input id='lastName' type="text" class="form-control" formControlName="email"></label>
+    </div>
+    <div>
+        <label>Mobile Number:
+            <input id='mobileNumber' type="text" class="form-control" formControlName="mobileNumber"></label>
+    </div>
+    <button class="btn btn-primary" type="submit">Register</button>
+</form>
