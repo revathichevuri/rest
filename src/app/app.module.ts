@@ -8,12 +8,14 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { HttpClientModule } from '@angular/common/http';
 import { CreateEmployeeComponent } from './employee/create-employee.component';
 import { ListEmployeeComponent } from './employee/list-employee.component';
+import { TemplateFormComponent } from './employee/template-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateEmployeeComponent,
-    ListEmployeeComponent
+    ListEmployeeComponent,
+    TemplateFormComponent
   ],
   imports: [
     HttpClientModule,
