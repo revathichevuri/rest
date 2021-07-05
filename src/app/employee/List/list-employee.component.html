@@ -1,5 +1,9 @@
 <h1>Registered Employees</h1>
 <br>
+<nav class="navbar">
+  <input class="form-control" type="text" name="firstName" [(ngModel)] = "firstName"
+        (ngModelChange) = "Search()" placeholder="Enter firstName to search"/>
+</nav>
 <table class="table" class="table table-bordered">
   <thead>
     <tr>

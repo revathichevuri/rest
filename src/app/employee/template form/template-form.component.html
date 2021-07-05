@@ -1,0 +1,30 @@
+<p>Register using the <b>Template Form</b> fields</p>
+<form #data="ngForm" (ngSubmit)="onSubmit(data)">
+    <div>
+        <label>User Id:
+            <input id='id' type="text" class="form-control" ngModel required name="id" #id="ngModel">
+            <span class="text-danger" *ngIf="id.touched && !id.valid">Please Enter User ID</span></label>
+    </div>
+    <div>
+        <label>First Name:
+            <input id='firstName' type="text" class="form-control" ngModel required name="firstName"></label>
+    </div>
+    <div>
+        <label>Last Name:
+            <input id='lastName' type="text" class="form-control" ngModel required name="lastName"></label>
+    </div>
+    <div>
+        <label>Email:
+            <input id='email' type="text" class="form-control" ngModel required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="email" #email="ngModel">
+            <span class="text-danger" *ngIf="email.errors?.pattern">Please provide a valid email address</span></label>
+    </div>
+    <div>
+        <label>Mobile Number:
+            <input id='mobileNumber' type="text" class="form-control" ngModel required minlength="10"
+                name="mobileNumber" #mobileNumber="ngModel">
+            <span class="text-danger" *ngIf="mobileNumber.errors?.minlength">MobileNumber must be 10
+                digits</span></label>
+    </div>
+    <button class="btn btn-primary" type="submit">Register</button>
+</form>

@@ -1,0 +1,69 @@
+<p>Register using the <b>Reactive Form/Dynamic Form</b> fields</p>
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+    <div>
+        <label>User Id:
+            <input id='id' type="text" class="form-control" formControlName="id">
+            <span class="text-danger"
+                *ngIf="employeeForm.controls['id'].touched && employeeForm.controls['id'].hasError('required')">Please
+                Enter User ID</span></label>
+    </div>
+    <div>
+        <label>First Name:
+            <input id='firstName' type="text" class="form-control" formControlName="firstName"></label>
+    </div>
+    <div>
+        <label>Last Name:
+            <input id='lastName' type="text" class="form-control" formControlName="lastName"></label>
+    </div>
+    <div>
+        <label>Email:
+            <input id='lastName' type="text" class="form-control" formControlName="email">
+            <span class="text-danger"
+                *ngIf="employeeForm.controls['email'].touched && employeeForm.controls['email'].hasError('email')">Please
+                enter valid email</span></label>
+    </div>
+    <div>
+        <label>Mobile Number:
+            <input id='mobileNumber' type="text" class="form-control" formControlName="mobileNumber">
+            <span class="text-danger"
+                *ngIf="employeeForm.controls['mobileNumber'].touched && employeeForm.controls['mobileNumber'].hasError('minlength')">minimum
+                required 10 digits</span></label>
+    </div>
+    <br>
+    <div formGroupName="skills">
+        <div clss="form-group">
+            <div class="col-sm-offset-2 col-sm-4">
+                <button type="button" class="btn btn-primary" (click)="addSkillButtonClick()">Add Skill</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Skill:</label>
+            <div class="col-sm-2">
+                <input id='skillName' type="text" class="form-control" placeholder="Name" formControlName="skillName">
+            </div>
+            <div class="col-sm-2">
+                <input id='experienceInYears' type="text" class="form-control" placeholder="Experience In Years"
+                    formControlName="experienceInYears">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Proficiency:</label>
+            <div class="col-md-8">
+                <label class="radio-inline">
+                    <input id='proficiency' type="radio" value="beginner" formControlName="proficiency">Beginner</label>
+                <label class="radio-inline">
+                    <input id='proficiency' type="radio" value="intermediate"
+                        formControlName="proficiency">Intermediate</label>
+                <label class="radio-inline">
+                    <input id='proficiency' type="radio" value="advanced" formControlName="proficiency">Advanced</label>
+            </div>
+        </div>
+    </div>
+    <br>
+        <button class="btn btn-primary" type="submit" [disabled]="!employeeForm.valid">Register</button>
+</form>
