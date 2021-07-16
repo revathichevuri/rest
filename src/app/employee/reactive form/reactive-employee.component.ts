@@ -50,4 +50,8 @@ export class ReactiveEmployeeComponent implements OnInit {
       proficiency: ['']
     });
   }
+
+  skillsetRemove(skillGroupIndex: number): void{
+    (<FormArray>this.employeeForm.get('skills')).removeAt(skillGroupIndex);
+  }
 }

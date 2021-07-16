@@ -44,6 +44,11 @@
                 <label>Experience:
                     <input id='experienceInYears' type="text" calss="form-control"
                         formControlName="experienceInYears"></label>
+                <div *ngIf="i>0">
+                    <button type="button" class="btn btn-danger btn-sm pull-right" title="delete skill"
+                        (click)="skillsetRemove(i)">
+                        <span class="glyphicon glyphicon-remove"></span></button>
+                </div>
                 <div>
                     <label>Proficiency:</label>&nbsp;&nbsp;
                     <label class="radio-inline">

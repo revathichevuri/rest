@@ -1,254 +1,16 @@
 {
   "Users": [
     {
-      "id": "110",
-      "firstName": "yu",
-      "lastName": "ghj",
-      "email": "fghj",
-      "mobileNumber": "567"
-    },
-    {
-      "id": "102",
-      "firstName": "Lakshmi",
-      "lastName": "Vintha",
-      "email": "lakshmivintha@gmail.com",
-      "mobileNumber": "9897"
-    },
-    {
-      "id": "34",
-      "firstName": "pranay",
-      "lastName": "ragi",
-      "email": "prk@gmail.com",
-      "mobileNumber": "234567"
-    },
-    {
-      "id": "23",
-      "firstName": "srivalli",
-      "lastName": "ravi",
-      "email": "sr@gmail.com",
-      "mobileNumber": "4567"
-    },
-    {
-      "id": "123",
-      "firstName": "jhon",
-      "lastName": "david",
-      "email": "ghj",
-      "mobileNumber": "3456789"
-    },
-    {
-      "id": "45",
-      "firstName": "rt",
-      "lastName": "rt",
-      "email": "rt",
-      "mobileNumber": "55"
-    },
-    {
-      "id": "44",
-      "firstName": "ee",
-      "lastName": "rr",
-      "email": "tt",
-      "mobileNumber": "55"
-    },
-    {
-      "id": "100",
-      "firstName": "sri",
+      "id": "11",
+      "firstName": "revathi",
       "lastName": "chevuri",
-      "email": "revathichevuri14@gmail.com",
-      "mobileNumber": "78933"
-    },
-    {
-      "id": "5555",
-      "firstName": "qqqq",
-      "lastName": "qqqqq",
-      "email": "qqqqq",
-      "mobileNumber": "22222222"
-    },
-    {
-      "id": "666666",
-      "firstName": "qqqqqqqqqqqqqqqqqqqqqq",
-      "lastName": "qqqqqqqqqqqqqqqqqqqqqq",
-      "email": "qqqqqqqqqqqqqqqqqqqq",
-      "mobileNumber": "11111111111111"
-    },
-    {
-      "id": "567432",
-      "firstName": "Dummy",
-      "lastName": "Data",
-      "email": "dummy@data.com",
-      "mobileNumber": "0000000000000"
-    },
-    {
-      "id": "sfhgt",
-      "firstName": "fshgyr",
-      "lastName": "dfhry",
-      "email": "dthggdut",
-      "mobileNumber": "tjhrfiu"
-    },
-    {
-      "id": "hfs",
-      "firstName": "fg",
-      "lastName": "fd",
-      "email": "fgr",
-      "mobileNumber": "hgd"
-    },
-    {
-      "id": "Dummy",
-      "firstName": "Data",
-      "lastName": "dummy",
-      "email": "bkjwb",
-      "mobileNumber": "heflkwq"
-    },
-    {
-      "id": "HKNckJa",
-      "firstName": "dd",
-      "lastName": "dd",
-      "email": "dd",
-      "mobileNumber": "11"
-    },
-    {
-      "id": "2",
-      "firstName": "ww",
-      "lastName": "ww",
-      "email": "ww",
-      "mobileNumber": "12"
-    },
-    {
-      "id": "1",
-      "firstName": "q",
-      "lastName": "w",
-      "email": "e",
-      "mobileNumber": "2"
-    },
-    {
-      "id": "3",
-      "firstName": "er",
-      "lastName": "d",
-      "email": "f",
-      "mobileNumber": "y"
-    },
-    {
-      "id": "56",
-      "firstName": "reva",
-      "lastName": "chev",
-      "email": "revvv",
-      "mobileNumber": "67"
-    },
-    {
-      "id": "78",
-      "firstName": "rt",
-      "lastName": "ty",
-      "email": "yu",
-      "mobileNumber": "99"
-    },
-    {
-      "id": "90",
-      "firstName": "ui",
-      "lastName": "yu",
-      "email": "hh",
-      "mobileNumber": "99"
-    },
-    {
-      "id": "yu",
-      "firstName": "ui",
-      "lastName": "ui",
-      "email": "ui",
-      "mobileNumber": "99"
-    },
-    {
-      "id": "ui",
-      "firstName": "99",
-      "lastName": "8",
-      "email": "ui",
-      "mobileNumber": "88"
-    },
-    {
-      "id": "Mi4KOLF",
-      "firstName": "",
-      "lastName": "chevvv",
-      "email": "rtyu",
-      "mobileNumber": "90"
-    },
-    {
-      "id": "8",
-      "firstName": "io",
-      "lastName": "io",
-      "email": "io",
-      "mobileNumber": "99"
-    },
-    {
-      "id": "l4FQr7H",
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "mobileNumber": ""
-    },
-    {
-      "id": "TiFyDws",
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "mobileNumber": ""
-    },
-    {
-      "id": "89",
-      "firstName": "88",
-      "lastName": "88",
-      "email": "88",
-      "mobileNumber": "88"
-    },
-    {
-      "id": "99",
-      "firstName": "99",
-      "lastName": "99",
-      "email": "99",
-      "mobileNumber": "99"
-    },
-    {
-      "id": "411",
-      "firstName": "rajitha",
-      "lastName": "thamma",
-      "email": "rajithatamma@gmail.com",
-      "mobileNumber": "8989898989"
-    },
-    {
-      "id": "t",
-      "firstName": "ty",
-      "lastName": "ty",
-      "email": "tty@ty",
-      "mobileNumber": "tttttttttttttttttttttttt"
-    },
-    {
-      "id": "6",
-      "firstName": "ty",
-      "lastName": "rty",
-      "email": "ee@w",
-      "mobileNumber": "1234567890"
-    },
-    {
-      "id": "s",
-      "firstName": "s",
-      "lastName": "s",
-      "email": "s@s",
-      "mobileNumber": "ssssssssssssssssssss"
-    },
-    {
-      "id": "1234",
-      "firstName": "revaaa",
-      "lastName": "chevuriiii",
-      "email": "rev@df",
-      "mobileNumber": "1234567890"
-    },
-    {
-      "id": "dd",
-      "firstName": "dd",
-      "lastName": "rr",
       "email": "er@ww",
       "mobileNumber": "1234567890"
     },
     {
       "id": "5",
-      "firstName": "5",
-      "lastName": "5",
+      "firstName": "laxmi",
+      "lastName": "vintha",
       "email": "5@5",
       "mobileNumber": "555555555555555",
       "skills": [
@@ -256,15 +18,20 @@
           "skillName": "c",
           "experienceInYears": "1",
           "proficiency": "intermediate"
+        },
+        {
+          "skillName": "JAVA",
+          "experienceInYears": "2",
+          "proficiency": "intermediate"
         }
       ]
     },
     {
       "id": "67",
-      "firstName": "ee",
-      "lastName": "ee",
+      "firstName": "srivalli",
+      "lastName": "ravi",
       "email": "ee@e",
-      "mobileNumber": "66666666666666666666",
+      "mobileNumber": "9999999454545",
       "skills": [
         {
           "skillName": "java",
@@ -275,8 +42,8 @@
     },
     {
       "id": "71187",
-      "firstName": "gh",
-      "lastName": "gh",
+      "firstName": "pranay",
+      "lastName": "ragi",
       "email": "gh@gh",
       "mobileNumber": "6666666666666",
       "skills": [
@@ -284,6 +51,108 @@
           "skillName": "jj",
           "experienceInYears": "4",
           "proficiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": "1011",
+      "firstName": "eet",
+      "lastName": "eet",
+      "email": "eet@eet",
+      "mobileNumber": "22222222222",
+      "skills": [
+        {
+          "skillName": "d",
+          "experienceInYears": "7",
+          "proficiency": "advanced"
+        }
+      ]
+    },
+    {
+      "id": "1012",
+      "firstName": "eey",
+      "lastName": "eey",
+      "email": "ggggg@ggggggg.com",
+      "mobileNumber": "11111111111111111111"
+    },
+    {
+      "id": "45",
+      "firstName": "rtrt",
+      "lastName": "rtrt",
+      "email": "rt@rt",
+      "mobileNumber": "555555555555555",
+      "skills": [
+        {
+          "skillName": "java",
+          "experienceInYears": "2",
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "firstName": "ty",
+      "lastName": "ty",
+      "email": "ty@ty",
+      "mobileNumber": "6666666666666666666",
+      "skills": [
+        {
+          "skillName": "java",
+          "experienceInYears": "4",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "angular",
+          "experienceInYears": "3",
+          "proficiency": ""
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "firstName": "kan",
+      "lastName": "kangaraju",
+      "email": "kan@hero",
+      "mobileNumber": "66666666666666999",
+      "skills": [
+        {
+          "skillName": "java",
+          "experienceInYears": "10",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "angular",
+          "experienceInYears": "2",
+          "proficiency": "advanced"
+        },
+        {
+          "skillName": "spring",
+          "experienceInYears": "3",
+          "proficiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": "fg",
+      "firstName": "fg",
+      "lastName": "tr",
+      "email": "revathichevuri14@gmail.com",
+      "mobileNumber": "88888888888888888",
+      "skills": [
+        {
+          "skillName": "java",
+          "experienceInYears": "2",
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "e",
+          "experienceInYears": "w",
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "x",
+          "experienceInYears": "3",
+          "proficiency": "advanced"
         }
       ]
     }
